@@ -1,0 +1,15 @@
+<script>
+  
+
+function pauseAllVideos() 
+    { 
+        $('iframe').contents().find('video').each(function () 
+        {
+            this.pause();
+        });
+        $('video').each(function () 
+        {
+            this.pause();
+        });
+    }
+</script>	
